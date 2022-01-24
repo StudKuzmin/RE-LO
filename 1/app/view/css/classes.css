@@ -1,0 +1,63 @@
+body { margin: 0; overflow-x: hidden; }
+
+.buttton_main_menu { 
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 3px solid #81006c;
+}
+
+.button_log { 
+  position: absolute;
+  right: 61px;
+  top: 0;
+  text-decoration: none;
+}
+.button_log:hover { 
+  position: absolute;
+  right: 61px;
+  top: 0;
+  color: #31c5ff;
+  cursor: pointer;
+}
+.button_reg { 
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  text-decoration: none;
+}
+.button_reg:hover { 
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: #31c5ff;
+  cursor: pointer;
+}
+
+.top_panel_main_menu {
+  width: auto;
+  height: 100px;
+  background: linear-gradient(to right, rgb(54, 173, 209), rgb(175, 13, 162));
+  border: 3px solid black;
+}
+.top_panel_srch_box {
+  position: absolute;
+  top: 35px;
+  left: 45%;
+  border: 3px solid black;
+}
+.top_panel_img_srch_box {
+  position: absolute;
+  top: 39px;
+  left: 59%;
+}
+
+.center {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  border: 3px solid black;
+  background: lightcoral;
+  margin: 0 auto;
+  text-align: center;
+}
